@@ -29,7 +29,7 @@ squareRoot = math.sqrt(y)
 print("Square root of y: ",squareRoot)
 
 #9. Use the round function to round x to the nearest tenths place (EX: 1.17 rounds to 1.1). Print the result.
-rounded = round(x)
+rounded = round(x, 1)
 print("x rounded: ",rounded)
 
 #10. Use the ceiling function to round x up to the nearest whole number. Print the result.
