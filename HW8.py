@@ -19,12 +19,12 @@ randInt3 = random.randint(1, 10)
 print(randInt1, randInt2, randInt3)
 
 #5. Add 2 to the first variable in #3, Subtract 4 from the second variable in #3, and multiply by 1.5 the third variable in #3.
-sumRandInt1 = randInt1 + 2
-differenceRandInt2 = randInt2 - 4
-multRandInt3 = randInt3 * 1.5
+randInt1 += 2
+randInt2 -= 4
+randInt3 *= 1.5
 
 #6. Print each result from #5 on the same line.
-print(sumRandInt1, differenceRandInt2, multRandInt3)
+print(randInt1, randInt2, randInt3)
 
 #7. Create a list containing four variables that each randomly generate an integer between 1 and 6
 randList = [random.randint(1, 6), random.randint(1, 6), random.randint(1, 6), random.randint(1, 6)]
