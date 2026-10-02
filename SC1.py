@@ -45,7 +45,8 @@ enemies = {
     }
 }
 enemy = input("Select the enemy whose damage you would like to change \n(Skeleton, Creeper, Zombie, Santa, or Lil Jimmy): ")
-print("Current damage is: ", enemies[enemy]["damage"])
-newDamage = float(input("Input the adjusted damage value: "))
-enemies[enemy].update({"damage" : newDamage})
-print("New damage is: ", enemies[enemy]["damage"])
+newStat = input("Which stat do you want to change \n(damage, health, defense, or agility): ")
+print("Current", newStat,  "is: ", enemies[enemy][newStat])
+statChange = float(input("Input the new value: "))
+enemies[enemy].update({newStat : statChange})
+print("New", newStat, "is: ", enemies[enemy][newStat])
