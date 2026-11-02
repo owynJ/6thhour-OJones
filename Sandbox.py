@@ -33,4 +33,4 @@ def grid(xLength, yHeight):
 xLength = int(input("x length: "))
 yHeight = int(input("y height: "))
 grid(xLength, yHeight)
-def verticalLine(xCoord):
+#def verticalLine(xCoord):
