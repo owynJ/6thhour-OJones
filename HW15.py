@@ -40,16 +40,22 @@ print(numList)
 #7. Create two empty variables named evenNumbers and oddNumbers.
 evenNumbers = 0
 oddNumbers = 0
+evenList = []
+oddList = []
 
 #8. Make a loop that counts the number of even and odd numbers in the list, and prints the
 #result after the loop.
 for i in numList:
     if i % 2 == 0:
+        evenList.append(i)
         evenNumbers += 1
     else:
+        oddList.append(i)
         oddNumbers += 1
 print("even numbers: ", evenNumbers)
+print("and they are: ", evenList)
 print("odd numbers: ", oddNumbers)
+print("and they are: ", oddList)
 
 #9. Create a variable that asks the user for an integer and an empty integer variable.
 inputInt = int(input("Enter an integer: "))
