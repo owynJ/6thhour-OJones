@@ -7,6 +7,7 @@
 import random
 import math
 import time
+import sys
 
 #2. print "Hello World!"
 print("Hello World")
@@ -15,7 +16,9 @@ print("Hello World")
 a = int(input("Enter an integer: "))
 b = int(input("Enter another integer: "))
 c = int(input("Enter and another integer: "))
-
+if c == 0:
+    print("That won't work...")
+    sys.exit()
 #4. Add a and b together, then divide the sum by c. Print the result.
 d = (a + b) / c
 print(d)
